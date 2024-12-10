@@ -33,6 +33,10 @@ public class Textjava {
             switch (opcion) {
                 case 1:
                     System.out.print("cocncatenar");
+                    System.out.print("Ingresa la primera palabra: ");
+                    String palabra1 = scanner.nextLine();
+                    System.out.print("Ingresa la segunda palabra: ");
+                    String palabra2 = scanner.nextLine();
                    
                     break;
 
