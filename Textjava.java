@@ -43,6 +43,16 @@ public class Textjava {
 
                 case 3:
                     System.out.print("letra ");
+                    System.out.print("Ingresa una frase: ");
+                    String fraseParaContar = scanner.nextLine();
+                    System.out.print("Ingresa una letra: ");
+                    char letra = scanner.nextLine().charAt(0);
+                    int contador = 0;
+                    for (char c : fraseParaContar.toCharArray()) {
+                        if (c == letra) {
+                            contador++;
+                        }
+                    }
                    
                     break;
 
