@@ -37,6 +37,7 @@ public class Textjava {
                     String palabra1 = scanner.nextLine();
                     System.out.print("Ingresa la segunda palabra: ");
                     String palabra2 = scanner.nextLine();
+                    System.out.println("Resultado: " + palabra1 + palabra2);
                    
                     break;
 
