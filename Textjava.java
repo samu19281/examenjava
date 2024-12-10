@@ -53,7 +53,7 @@ public class Textjava {
                             contador++;
                         }
                     }
-                   
+                    System.out.println("La letra '" + letra + "' aparece " + contador + " veces.");
                     break;
 
                 case 4:
