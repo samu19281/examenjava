@@ -38,6 +38,9 @@ public class Textjava {
 
                 case 2:
                     System.out.print("frase: ");
+                    System.out.print("Ingresa una frase: ");
+                    String frase = scanner.nextLine();
+                    String[] palabras = frase.trim().split("\\s+");
                     
                     break;
 
